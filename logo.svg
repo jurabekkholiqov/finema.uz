@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 60" width="280" height="60" fill="none">
+  <!-- Soft drop container icon -->
+  <g transform="translate(4, 6)">
+    <path d="M24 4C24 4 6 24 6 34C6 43.9411 14.0589 52 24 52C33.9411 52 42 43.9411 42 34C42 24 24 4 24 4Z" fill="#1B6B2F"/>
+    <path d="M20 16C20 16 12 28 12 34C12 39.5228 16.4772 44 22 44C20 42 19 39 19 36C19 30 24 22 24 22C24 22 20 18 20 16Z" fill="#8CC63F"/>
+    <circle cx="28" cy="24" r="3" fill="#F2C230"/>
+  </g>
+  <!-- FINEMA wordmark -->
+  <text x="56" y="42" font-family="'Plus Jakarta Sans', 'Montserrat', 'Inter', sans-serif" font-size="34" font-weight="900" letter-spacing="0.04em" fill="#1B6B2F">
+    FINEMA
+  </text>
+  <text x="57" y="52" font-family="'Plus Jakarta Sans', 'Montserrat', 'Inter', sans-serif" font-size="8" font-weight="700" letter-spacing="0.25em" fill="#8CC63F">
+    TOZALIK VA SIFAT KAFOLATI
+  </text>
+</svg>
