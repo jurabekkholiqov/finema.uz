@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "about": "About Us",
+    "why": "Benefits",
+    "products": "Products",
+    "values": "Values",
+    "contacts": "Where to Buy",
+    "orderTelegram": "Order via Telegram"
+  },
+  "hero": {
+    "badge": "Made in Uzbekistan",
+    "title": "Cleanliness and Quality Guaranteed",
+    "subtitle": "Safe, effective, and affordable household cleaning products for your home and family.",
+    "btnProducts": "Our Products",
+    "btnOrder": "Place an Order",
+    "scrollHint": "Scroll down"
+  },
+  "about": {
+    "label": "ABOUT BRAND",
+    "title": "Finema — Cleanliness and Warmth in Every Home",
+    "text": "Finema — high-quality and affordable cleaning products for families. Manufactured in Uzbekistan at our own facility.",
+    "subtext": "We strictly adhere to premium quality standards in every product. Our goal is to bring flawless cleanliness and a cozy environment to your household.",
+    "feature1": "100% In-house Manufacturing",
+    "feature2": "Safe and Effective Formula"
+  },
+  "why": {
+    "label": "WHY FINEMA",
+    "title": "Three Principles in Every Product",
+    "card1Title": "Effectiveness",
+    "card1Sub": "Powerful formula against tough stains",
+    "card1Desc": "Breaks down stubborn grease and stains in seconds, leaving dishes and surfaces sparkling clean.",
+    "card2Title": "Pleasant Aroma",
+    "card2Sub": "Long-lasting fresh scent",
+    "card2Desc": "Natural floral and fruity notes preserve a long-lasting atmosphere of freshness in your home.",
+    "card3Title": "Economy",
+    "card3Sub": "Low consumption, rich foam, affordable price",
+    "card3Desc": "Concentrated formula requires only a few drops. Significantly saves your family budget."
+  },
+  "products": {
+    "label": "CATALOG",
+    "title": "Products that feel good to hold",
+    "viewAll": "View all products",
+    "orderBtn": "Order Now",
+    "selectVariant": "Select a variant:",
+    "close": "Close",
+    "categories": {
+      "dish": {
+        "title": "Dishwashing Liquids",
+        "tagline": "Thick gel rapidly cutting through grease",
+        "desc": "Cleans dishes perfectly even in cold water while keeping hands soft."
+      },
+      "laundry": {
+        "title": "Laundry Gel & Detergent",
+        "tagline": "Deep Clean — fabric fiber protection",
+        "desc": "Preserves vibrant colors, removes deep stains, and leaves a gentle rose scent."
+      },
+      "glass": {
+        "title": "Glass & Window Cleaner",
+        "tagline": "Streak-free shine spray",
+        "desc": "Flawless clarity and shine for windows, mirrors, and glass surfaces."
+      },
+      "soap": {
+        "title": "Liquid 72% Household Soap",
+        "tagline": "Universal anti-bacterial liquid soap",
+        "desc": "Multipurpose 72% concentration soap for kitchen, bathroom, and household cleaning."
+      }
+    }
+  },
+  "advantages": {
+    "label": "OUR ADVANTAGES",
+    "title": "What lies behind every product",
+    "item1Title": "Own Manufacturing",
+    "item1Desc": "Modern technology and strict quality control at every stage.",
+    "item2Title": "Powerful Formula",
+    "item2Desc": "Effective active ingredients targeted at stubborn stains and grease.",
+    "item3Title": "Long-Lasting Fragrance",
+    "item3Desc": "Natural and refreshing scents that stay on clothes and dishes.",
+    "item4Title": "Machine & Hand Wash",
+    "item4Desc": "Perfectly suited for both automatic washing machines and hand washing.",
+    "item5Title": "Economical Usage",
+    "item5Desc": "Concentrated gel — maximum suds with minimal product usage.",
+    "item6Title": "Family Safe",
+    "item6Desc": "Completely safe and dermatologically tested for family daily use."
+  },
+  "banner": {
+    "slogan": "Cleanliness you'll love breathing in."
+  },
+  "values": {
+    "label": "OUR VALUES",
+    "title": "What We Believe In",
+    "val1Num": "01",
+    "val1Title": "Quality",
+    "val1Desc": "Every single product batch undergoes strict laboratory testing.",
+    "val2Num": "02",
+    "val2Title": "Safety",
+    "val2Desc": "Active ingredients completely safe for human health and gentle on fabrics.",
+    "val3Num": "03",
+    "val3Title": "Economy",
+    "val3Desc": "Premium quality delivered at an accessible and fair price for every family.",
+    "val4Num": "04",
+    "val4Title": "Convenience",
+    "val4Desc": "Ergonomic bottles designed for effortless everyday household use."
+  },
+  "mission": {
+    "label": "OUR MISSION",
+    "quote": "A clean and comfortable home for every family.",
+    "subquote": "We work to lighten home chores and bring more joyful moments to everyday life."
+  },
+  "whereToBuy": {
+    "label": "WHERE TO BUY",
+    "title": "How to Purchase Finema Products",
+    "subtitle": "Order our products with ease or get in touch for wholesale partnership",
+    "card1Title": "Order via Telegram",
+    "card1Desc": "Connect with our Telegram manager and complete your order in just a few minutes.",
+    "card1Btn": "Order on Telegram",
+    "card2Title": "Call Us Directly",
+    "card2Desc": "Have questions? Give us a call and our customer care team will assist you.",
+    "card2Btn": "Call: 97 587 22 00",
+    "card3Title": "Wholesale Partnership",
+    "card3Desc": "Special favorable wholesale terms for retail stores and bulk distributors.",
+    "card3Btn": "Wholesale Inquiry (Optom)",
+    "instagramText": "Follow us on Instagram for updates and news:"
+  },
+  "footer": {
+    "tagline": "Quality household cleaning products manufactured in Uzbekistan.",
+    "phone": "Phone: 97 587 22 00",
+    "rights": "© 2026 Finema. All rights reserved."
+  }
+}

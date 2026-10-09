@@ -1,0 +1,36 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Unrelated files in workspace
+Al Baraka - Google Xaritalar_files
+Arxivlar
+Dasturlar
+Hujjatlar
+Kodlar va Noutbuklar
+Malumotlar va Boshqalar
+Musiqa va Audio
+Rasmlar
+Videolar
+310b7cca-1a13-4c5e-b99a-e94e91dbda2a.jpg

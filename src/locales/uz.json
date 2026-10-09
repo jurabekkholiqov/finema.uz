@@ -1,0 +1,129 @@
+{
+  "nav": {
+    "about": "Brend haqida",
+    "why": "Afzalliklar",
+    "products": "Mahsulotlar",
+    "values": "Qadriyatlar",
+    "contacts": "Qanday sotib olish",
+    "orderTelegram": "Telegramda buyurtma"
+  },
+  "hero": {
+    "badge": "O'zbekistonda ishlab chiqarilgan",
+    "title": "Tozalik va Sifat Kafolati",
+    "subtitle": "Uy va oilangiz uchun xavfsiz, samarali hamda hamyonbop maishiy kimyo mahsulotlari.",
+    "btnProducts": "Mahsulotlarimiz",
+    "btnOrder": "Buyurtma berish",
+    "scrollHint": "Pastga suring"
+  },
+  "about": {
+    "label": "BREND HAQIDA",
+    "title": "Finema — Har bir xonadonda tozalik va samimiyat",
+    "text": "Finema — oila uchun sifatli va hamyonbop tozalash vositalari. O'zbekistonda, o'z ishlab chiqarishimizda tayyorlanadi.",
+    "subtext": "Biz har bir mahsulotni yaratishda sifat standartlariga qat'iy rioya qilamiz. Maqsadingiz — xonadoningizda mukammal tozalik va yoqimli muhit yaratishdir.",
+    "feature1": "100% Mahalliy ishlab chiqarish",
+    "feature2": "Xavfsiz va samarali tarkib"
+  },
+  "why": {
+    "label": "NEGA FINEMA",
+    "title": "Har bir vositada uchta tamoyil",
+    "card1Title": "Samaradorlik",
+    "card1Sub": "Kuchli formula, qattiq dog'larga qarshi",
+    "card1Desc": "Eng qiyin yog' va dog'larni soniyalar ichida osongina parchalaydi, idish va yuzalarga yaltiroq jilo beradi.",
+    "card2Title": "Yoqimli hid",
+    "card2Sub": "Uzoq saqlanadigan yoqimli aromat",
+    "card2Desc": "Tabiiy va yoqimli gul hamda meva iforlari uyingizda uzoq vaqt davomida yangilik va tozalik muhitini saqlaydi.",
+    "card3Title": "Tejamkorlik",
+    "card3Sub": "Kam sarf, ko'pikka boy, hamyonbop narx",
+    "card3Desc": "Quyuq formula tufayli bir necha tomchisi yetarli. Oilaviy byudjetingizni sezilarli darajada tejaydi."
+  },
+  "products": {
+    "label": "KATALOG",
+    "title": "Qo'lga olish yoqimli vositalar",
+    "viewAll": "Barcha vositalarni ko'rish",
+    "orderBtn": "Buyurtma berish",
+    "selectVariant": "Variantni tanlang:",
+    "close": "Yopish",
+    "categories": {
+      "dish": {
+        "title": "Idish yuvish vositalari",
+        "tagline": "Yog'larni tez va samarali parchalovchi quyuq gel",
+        "desc": "Idishlarni sovuq suvda ham mukammal tozalaydi, qo'l terisini quritmaydi."
+      },
+      "laundry": {
+        "title": "Kir yuvish geli va kukuni",
+        "tagline": "Deep Clean — mato tolalarini asrovchi vosita",
+        "desc": "Ranglarni saqlaydi, qattiq dog'larni ketkazadi va matoga nozik atirgul iforini beradi."
+      },
+      "glass": {
+        "title": "Shisha va oyna tozalagich",
+        "tagline": "Iz va dog' qoldirmasdan yaltiratuvchi sprey",
+        "desc": "Oynalar, shishalar va nometall yuzalar uchun ideal yaltiroq jilo."
+      },
+      "soap": {
+        "title": "Suyuq xo'jalik sovuni 72%",
+        "tagline": "Universal anti-bakterial suyuq sovun",
+        "desc": "Oshxona, hammom va maishiy foydalanish uchun 72% konsentratsiyali universal sovun."
+      }
+    }
+  },
+  "advantages": {
+    "label": "AFZALLIKLARIMIZ",
+    "title": "Finema ortida nima turadi",
+    "item1Title": "O'z ishlab chiqarishimiz",
+    "item1Desc": "Zamonaviy texnologiyalar va har bir bosqichda doimiy sifat nazorati.",
+    "item2Title": "Kuchli formula",
+    "item2Desc": "Qattiq dog'lar va yog'larga qarshi samarali faol moddalar.",
+    "item3Title": "Yoqimli va uzoq hid",
+    "item3Desc": "Kiyim va idishlarda uzoq saqlanuvchi nozik va tabiiy iforlar.",
+    "item4Title": "Avtomat va qo'l uchun",
+    "item4Desc": "Kir yuvish mashinalari va qo'lda yuvish uchun birdek mos keladi.",
+    "item5Title": "Tejamkor sarf",
+    "item5Desc": "Quyuq konsentratsiya — minimal sarf bilan maksimal ko'pik va natija.",
+    "item6Title": "Oilaviy foydalanish",
+    "item6Desc": "Butun oila a'zolari uchun mutlaqo xavfsiz va dermatologik sinovdan o'tgan."
+  },
+  "banner": {
+    "slogan": "Tozalik, unga nafas olish yoqimli."
+  },
+  "values": {
+    "label": "QADRIYATLARIMIZ",
+    "title": "Biz nimaga ishonamiz",
+    "val1Num": "01",
+    "val1Title": "Sifat",
+    "val1Desc": "Har bir mahsulot partiyasi qat'iy laboratoriya sifat nazoratidan o'tadi.",
+    "val2Num": "02",
+    "val2Title": "Xavfsizlik",
+    "val2Desc": "Inson salomatligi va kiyim matolariga mutlaqo zararsiz faol tarkib.",
+    "val3Num": "03",
+    "val3Title": "Tejamkorlik",
+    "val3Desc": "Premial sifatni har bir oilaga hamyonbop va adolatli narxda taqdim etamiz.",
+    "val4Num": "04",
+    "val4Title": "Qulaylik",
+    "val4Desc": "Kundalik foydalanish uchun qulay idishlar va ergonomik shakl."
+  },
+  "mission": {
+    "label": "BIZNING MISSYAMIZ",
+    "quote": "Har bir oila uchun toza va qulay uy.",
+    "subquote": "Biz har bir xonadonda tozalik va shinamlik hukm surishi uchun mehnat qilamiz."
+  },
+  "whereToBuy": {
+    "label": "XARID QILISH",
+    "title": "Finema'ni qanday sotib olish mumkin",
+    "subtitle": "Mahsulotlarimizni osongina buyurtma qiling yoki biz bilan hamkorlik o'rnating",
+    "card1Title": "Telegram orqali buyurtma",
+    "card1Desc": "Telegram menejerimiz bilan bog'laning va buyurtmangizni bir necha daqiqada rasmiylashtiring.",
+    "card1Btn": "Telegramda buyurtma berish",
+    "card2Title": "Telefon orqali bog'lanish",
+    "card2Desc": "Savollaringiz bormi? Qo'ng'iroq qiling, mutaxassislarimiz sizga mamnuniyat bilan yordam beradi.",
+    "card2Btn": "Qo'ng'iroq qilish: 97 587 22 00",
+    "card3Title": "Ulgurji hamkorlik",
+    "card3Desc": "Do'konlar, optom xaridorlar va distribyutorlar uchun maxsus hamyonbop ulgurji shartlar.",
+    "card3Btn": "Ulgurji (Optom) xarid qilish",
+    "instagramText": "Bizni Instagramda kuzatib boring va yangiliklardan boxabar bo'ling:"
+  },
+  "footer": {
+    "tagline": "O'zbekistonda tayyorlangan sifatli maishiy kimyo mahsulotlari.",
+    "phone": "Telefon: 97 587 22 00",
+    "rights": "© 2026 Finema. Barcha huquqlar himoyalangan."
+  }
+}
