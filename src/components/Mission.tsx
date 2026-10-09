@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
+import { getAssetPath } from '../config';
 import { HeartHandshake } from 'lucide-react';
 
 export const Mission: React.FC = () => {
@@ -10,14 +11,14 @@ export const Mission: React.FC = () => {
     <section className="py-16 lg:py-24 bg-[#FBF6EE] relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Container with background image & soft green overlay card (Biomio style) */}
+        {/* Container with background image & soft green overlay card */}
         <div className="relative rounded-[2.5rem] overflow-hidden shadow-xl min-h-[420px] lg:min-h-[480px] flex items-center justify-end p-6 sm:p-10 lg:p-16">
           
           {/* Background Image */}
           <picture className="absolute inset-0 w-full h-full">
-            <source srcSet="/images/hero.webp" type="image/webp" />
+            <source srcSet={getAssetPath('/images/hero.webp')} type="image/webp" />
             <img
-              src="/images/hero.jpg"
+              src={getAssetPath('/images/hero.jpg')}
               alt="Finema Mission Background"
               className="w-full h-full object-cover object-center"
               loading="lazy"
@@ -27,7 +28,7 @@ export const Mission: React.FC = () => {
           {/* Soft Dark Ambient Overlay */}
           <div className="absolute inset-0 bg-black/35" />
 
-          {/* Floating Soft Green Mission Card (Right Aligned like Biomio) */}
+          {/* Floating Soft Green Mission Card */}
           <motion.div
             initial={{ opacity: 0, scale: 0.9, y: 20 }}
             whileInView={{ opacity: 1, scale: 1, y: 0 }}

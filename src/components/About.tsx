@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
+import { getAssetPath } from '../config';
 import { CheckCircle2, ShieldCheck, Factory } from 'lucide-react';
 
 export const About: React.FC = () => {
@@ -21,9 +22,9 @@ export const About: React.FC = () => {
           >
             <div className="relative rounded-[2.5rem] overflow-hidden shadow-xl border-2 border-finema-cardBorder/60 group">
               <picture>
-                <source srcSet="/images/about.webp" type="image/webp" />
+                <source srcSet={getAssetPath('/images/about.webp')} type="image/webp" />
                 <img
-                  src="/images/about.jpg"
+                  src={getAssetPath('/images/about.jpg')}
                   alt="Finema Brand Crafting"
                   className="w-full h-[380px] sm:h-[460px] lg:h-[500px] object-cover transform transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
@@ -64,7 +65,7 @@ export const About: React.FC = () => {
               {t('about.title')}
             </h2>
 
-            {/* Core Paragraph (Exact prompt quote requirement) */}
+            {/* Core Paragraph */}
             <p className="text-lg sm:text-xl font-medium text-finema-darkGreen leading-relaxed bg-finema-creamDark/70 p-5 rounded-2xl border-l-4 border-finema-darkGreen">
               {t('about.text')}
             </p>

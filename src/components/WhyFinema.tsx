@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
+import { getAssetPath } from '../config';
 import { Sparkles, Heart, PiggyBank } from 'lucide-react';
 
 export const WhyFinema: React.FC = () => {
@@ -13,8 +14,8 @@ export const WhyFinema: React.FC = () => {
       subtitle: t('why.card1Sub'),
       desc: t('why.card1Desc'),
       icon: Sparkles,
-      image: '/images/why-1.jpg',
-      webpImage: '/images/why-1.webp',
+      image: getAssetPath('/images/why-1.jpg'),
+      webpImage: getAssetPath('/images/why-1.webp'),
       badgeColor: 'bg-finema-darkGreen text-white',
     },
     {
@@ -23,8 +24,8 @@ export const WhyFinema: React.FC = () => {
       subtitle: t('why.card2Sub'),
       desc: t('why.card2Desc'),
       icon: Heart,
-      image: '/images/why-2.jpg',
-      webpImage: '/images/why-2.webp',
+      image: getAssetPath('/images/why-2.jpg'),
+      webpImage: getAssetPath('/images/why-2.webp'),
       badgeColor: 'bg-finema-lightGreen text-finema-darkGreen',
     },
     {
@@ -33,8 +34,8 @@ export const WhyFinema: React.FC = () => {
       subtitle: t('why.card3Sub'),
       desc: t('why.card3Desc'),
       icon: PiggyBank,
-      image: '/images/why-3.jpg',
-      webpImage: '/images/why-3.webp',
+      image: getAssetPath('/images/why-3.jpg'),
+      webpImage: getAssetPath('/images/why-3.webp'),
       badgeColor: 'bg-finema-yellow text-finema-textDark',
     },
   ];
@@ -53,7 +54,7 @@ export const WhyFinema: React.FC = () => {
           </h2>
         </div>
 
-        {/* 3 Image Cards Grid (Biomio Style image-on-top cards) */}
+        {/* 3 Image Cards Grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 lg:gap-10">
           {cards.map((card, idx) => {
             const IconComponent = card.icon;

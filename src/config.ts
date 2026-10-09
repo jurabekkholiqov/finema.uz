@@ -11,10 +11,21 @@ export const CONFIG = {
 export type Language = 'uz' | 'ru' | 'en';
 
 /**
+ * Resolves static asset paths correctly across root domains and GitHub Pages subpaths
+ */
+export function getAssetPath(path: string): string {
+  if (!path) return '';
+  if (path.startsWith('http://') || path.startsWith('https://')) return path;
+  
+  const base = import.meta.env.BASE_URL || '/';
+  const cleanBase = base.endsWith('/') ? base : `${base}/`;
+  const cleanPath = path.startsWith('/') ? path.slice(1) : path;
+  
+  return `${cleanBase}${cleanPath}`;
+}
+
+/**
  * Generates a localized Telegram order link with prefilled text
- * UZ: "Assalomu alaykum, Finema [product name] [size] mahsulotiga buyurtma bermoqchiman."
- * RU: "Здравствуйте, я хочу заказать средство Finema [product name] [size]."
- * EN: "Hello, I would like to order Finema [product name] [size]."
  */
 export function getTelegramOrderUrl(productName?: string, size?: string, lang: Language = 'uz'): string {
   if (!productName) {

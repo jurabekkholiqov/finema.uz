@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
-import { Language, CONFIG, getTelegramOrderUrl } from '../config';
+import { Language, CONFIG, getTelegramOrderUrl, getAssetPath } from '../config';
 import { Menu, X, Send, Phone } from 'lucide-react';
 
 export const Header: React.FC = () => {
@@ -35,7 +35,7 @@ export const Header: React.FC = () => {
           {/* Logo */}
           <a href="#" className="flex items-center gap-3 group focus:outline-none focus:ring-2 focus:ring-finema-lightGreen rounded-lg p-1">
             <img
-              src="/logo.svg"
+              src={getAssetPath('/logo.svg')}
               alt="Finema Logo"
               className="h-9 sm:h-11 w-auto transition-transform duration-300 group-hover:scale-105"
             />

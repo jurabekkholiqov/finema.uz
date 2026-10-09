@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
 import { PRODUCT_CATEGORIES, ProductCategory } from '../data/products';
 import { ProductModal } from './ProductModal';
+import { getAssetPath } from '../config';
 import { ArrowRight, Layers, Sparkles } from 'lucide-react';
 
 export const Products: React.FC = () => {
@@ -13,7 +14,7 @@ export const Products: React.FC = () => {
     <section id="products" className="py-20 lg:py-28 bg-[#FBF6EE] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
-        {/* Top Header Block: Biomio layout (Title left, Intro banner right) */}
+        {/* Top Header Block */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center mb-12 lg:mb-16">
           <div className="lg:col-span-7 space-y-4">
             <span className="text-xs font-bold uppercase tracking-widest text-finema-darkGreen bg-finema-mint px-3 py-1.5 rounded-full inline-block">
@@ -31,9 +32,9 @@ export const Products: React.FC = () => {
           <div className="lg:col-span-5">
             <div className="relative rounded-[2rem] overflow-hidden shadow-lg border border-finema-cardBorder h-48 sm:h-56 group">
               <picture>
-                <source srcSet="/images/brand-poster.webp" type="image/webp" />
+                <source srcSet={getAssetPath('/images/brand-poster.webp')} type="image/webp" />
                 <img
-                  src="/images/brand-poster.jpg"
+                  src={getAssetPath('/images/brand-poster.jpg')}
                   alt="Finema Collection"
                   className="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105"
                   loading="lazy"
@@ -50,7 +51,7 @@ export const Products: React.FC = () => {
           </div>
         </div>
 
-        {/* Categories Grid (Biomio 3 top, 2 bottom layout) */}
+        {/* Categories Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
           {PRODUCT_CATEGORIES.map((cat, idx) => {
             const title = t(cat.titleKey);
@@ -67,12 +68,12 @@ export const Products: React.FC = () => {
                 onClick={() => setActiveCategory(cat)}
                 className="bg-white rounded-[2rem] overflow-hidden border border-finema-cardBorder shadow-soft hover:shadow-card-hover transition-all duration-300 flex flex-col cursor-pointer group hover:-translate-y-1.5"
               >
-                {/* Image on top (Biomio style) */}
+                {/* Image on top */}
                 <div className="relative h-64 sm:h-72 bg-[#F3EBDD]/50 p-6 flex items-center justify-center overflow-hidden">
                   <picture className="w-full h-full flex items-center justify-center">
-                    <source srcSet={cat.mainWebpImage} type="image/webp" />
+                    <source srcSet={getAssetPath(cat.mainWebpImage)} type="image/webp" />
                     <img
-                      src={cat.mainImage}
+                      src={getAssetPath(cat.mainImage)}
                       alt={title}
                       className="max-h-full max-w-full object-contain transform transition-transform duration-500 group-hover:scale-105"
                       loading="lazy"
@@ -112,7 +113,7 @@ export const Products: React.FC = () => {
             );
           })}
 
-          {/* 5th Card: All Products Promo Card */}
+          {/* Promo Card */}
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -142,7 +143,7 @@ export const Products: React.FC = () => {
           </motion.div>
         </div>
 
-        {/* Bottom Rounded Button "Barcha vositalarni ko'rish" */}
+        {/* Bottom Rounded Button */}
         <div className="mt-12 text-center">
           <button
             onClick={() => setActiveCategory(PRODUCT_CATEGORIES[0])}

@@ -2,7 +2,7 @@ import React from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
 import { ProductCategory, ProductVariant } from '../data/products';
-import { getTelegramOrderUrl } from '../config';
+import { getTelegramOrderUrl, getAssetPath } from '../config';
 import { X, Send, Check, Sparkles } from 'lucide-react';
 
 interface ProductModalProps {
@@ -61,9 +61,9 @@ export const ProductModal: React.FC<ProductModalProps> = ({ category, onClose })
             <div className="md:col-span-6 flex flex-col items-center">
               <div className="relative w-full h-64 sm:h-80 bg-white rounded-3xl overflow-hidden p-4 border border-finema-cardBorder/60 shadow-inner flex items-center justify-center group">
                 <picture className="w-full h-full flex items-center justify-center">
-                  <source srcSet={currentVariant.webpImage} type="image/webp" />
+                  <source srcSet={getAssetPath(currentVariant.webpImage)} type="image/webp" />
                   <img
-                    src={currentVariant.image}
+                    src={getAssetPath(currentVariant.image)}
                     alt={localizedName}
                     className="max-h-full max-w-full object-contain transition-transform duration-500 group-hover:scale-105"
                   />

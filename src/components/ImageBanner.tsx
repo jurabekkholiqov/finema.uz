@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
+import { getAssetPath } from '../config';
 
 export const ImageBanner: React.FC = () => {
   const { t } = useLanguage();
@@ -9,9 +10,9 @@ export const ImageBanner: React.FC = () => {
     <section className="relative w-full h-[380px] sm:h-[460px] lg:h-[520px] overflow-hidden flex items-center justify-center">
       {/* Background Image */}
       <picture className="absolute inset-0 w-full h-full">
-        <source srcSet="/images/banner.webp" type="image/webp" />
+        <source srcSet={getAssetPath('/images/banner.webp')} type="image/webp" />
         <img
-          src="/images/banner.jpg"
+          src={getAssetPath('/images/banner.jpg')}
           alt="Finema Cleanliness Banner"
           className="w-full h-full object-cover object-center transform scale-105 transition-transform duration-1000"
           loading="lazy"

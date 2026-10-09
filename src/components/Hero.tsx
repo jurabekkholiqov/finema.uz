@@ -1,7 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useLanguage } from '../context/LanguageContext';
-import { getTelegramOrderUrl } from '../config';
+import { getTelegramOrderUrl, getAssetPath } from '../config';
 import { Send, ChevronDown, Sparkles } from 'lucide-react';
 
 export const Hero: React.FC = () => {
@@ -74,9 +74,9 @@ export const Hero: React.FC = () => {
           >
             <div className="relative mx-auto max-w-md lg:max-w-none rounded-[2.5rem] overflow-hidden shadow-2xl border-4 border-white/80 bg-white group">
               <picture>
-                <source srcSet="/images/hero.webp" type="image/webp" />
+                <source srcSet={getAssetPath('/images/hero.webp')} type="image/webp" />
                 <img
-                  src="/images/hero.jpg"
+                  src={getAssetPath('/images/hero.jpg')}
                   alt="Finema Products Showcase"
                   className="w-full h-[400px] sm:h-[480px] lg:h-[520px] object-cover object-center transform transition-transform duration-700 group-hover:scale-105"
                   loading="eager"
